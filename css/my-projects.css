@@ -1,0 +1,27 @@
+.project-list {
+    padding-top: 10%;
+    background-color: whitesmoke;
+    padding-bottom: 10%;
+}
+
+.neudash, .book, .todo-list{
+    width: 60%;
+    margin: 50px auto;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.project-title {
+    margin-left: 10%;
+}
+
+.proj-ref{
+    margin-left: 10%;
+    color: darkseagreen;
+}
+
+#projs-bar {
+    color: green;
+    font-weight: bolder;
+}

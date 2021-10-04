@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/my-projects.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap" rel="stylesheet">
     <title>Projects</title>
 </head>
 <body>
 
-    <nav class="navbar">   
+    <nav class="navbar"> 
+        <div class="navname">
+            Isabella Zhang
+        </div>   
         <ul class="nav-list">
           <li class="nav-item"><a href="../index.html">Home</a></li>
+          <li class="nav-item"><a id="projs-bar" href="projects.html">Projects</a></li>
           <li class="nav-item"><a href="contact-info.html">Contact</a></li>
           <li class="nav-item"><a href="about-me.html">About</a></li>
         </ul>
@@ -22,8 +26,13 @@
             Projects
         </h2>
         <div class="neudash">
-            <div class="neudash-info">
-                NEUDash - Food Delivery Website
+            <div class="neudash-pic">
+                <img src="../images/ramen.png">
+            </div>
+            <div class=neudash-info>
+                <div class="project-title">
+                    NEUDash - Food Delivery Website
+                </div>
                 <ul>
                     <li>
                         Designed and implemented a food delivery web application serving the greater Seattle area
@@ -39,16 +48,18 @@
                         Deployed the application to Heroku
                     </li>
                 </ul>
-                <br>
-                <a href="https://neudash.herokuapp.com">Link to Website</a>
-                <a href="https://github.com/isazyzhang/NEUDash-Food-Delivery-Website">Link to Source Code</a>
+                <a class="proj-ref" href="https://neudash.herokuapp.com">Link to Website</a>
+                <a class="proj-ref" href="https://github.com/isazyzhang/NEUDash-Food-Delivery-Website">Link to Source Code</a>
             </div>
         </div>
-
-
-        <div class="todo-list">
-            <div class="todo-list-info">
-                To-Do List: Task Management Application
+        <div class="book">
+            <div class="book-pic">
+                <img src="../images/book.png">
+            </div>
+            <div class="book-info">
+                <div class="project-title">
+                    Online E-book Rental Website
+                </div>
                 <ul>
                     <li>
                         Created an affordable online E-book rental system which stores more than 100k books
@@ -65,11 +76,15 @@
                 </ul>
             </div>
         </div>
-      </div>
 
         <div class="todo-list">
+            <div class="list-pic">
+                <img src="../images/todo-list-pic.png" alt="">
+            </div>
             <div class="todo-list-info">
-                To-Do List: Task Management Application
+                <div class="project-title">
+                    To-Do List: Task Management Application
+                </div>
                 <ul>
                     <li>
                         Designed and created a personalized task management application compatible with Windows and macOS
@@ -86,6 +101,6 @@
                 </ul>
             </div>
         </div>
-      </div>
+    </div>
 </body>
 </html>

@@ -10,3 +10,8 @@
 #canada-pic, #documentary-pic, #minesweeper-pic{
     width: 60%;
 }
+
+#about-bar {
+    color: green;
+    font-weight: bolder;
+  }

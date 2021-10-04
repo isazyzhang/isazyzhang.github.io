@@ -13,3 +13,8 @@
       padding-top: 50px;
       color: darkslategrey;
   }
+
+  #contact-bar {
+    color: green;
+    font-weight: bolder;
+  }

@@ -5,6 +5,10 @@
     color: darkslategrey;
   }
 
+  #neu {
+    font-weight: bolder;
+  }
+
   .navbar {
     position: fixed;
     display: flex;
@@ -67,6 +71,7 @@
     margin: 10px 20px;
     text-decoration: none;
     font-weight: bolder;
+    transition: 600ms;
   }
   
   a:hover {
@@ -117,4 +122,15 @@
     border-style: dotted none none;
     border-width: 6px;
     width: 4%;
+  }
+
+  #home-bar {
+    color: green;
+    font-weight: bolder;
+  }
+
+  #navname {
+    font-family: "Merriweather", serif;
+    font-size: 150%;
+    color: darkslategrey;
   }
