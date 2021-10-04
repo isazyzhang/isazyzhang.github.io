@@ -1,0 +1,15 @@
+  .contact-links {
+      z-index: 2;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding-top: 100px;
+      padding-bottom: 60px;
+      background-color: azure;
+  }
+
+  .email {
+      padding-top: 50px;
+      color: darkslategrey;
+  }

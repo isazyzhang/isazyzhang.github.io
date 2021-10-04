@@ -1,0 +1,12 @@
+.about-block {
+    padding: 3%;
+}
+
+.more {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#canada-pic, #documentary-pic, #minesweeper-pic{
+    width: 60%;
+}

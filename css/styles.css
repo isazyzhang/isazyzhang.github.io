@@ -1,0 +1,120 @@
+  body {
+    margin: 0;
+    text-align: center;
+    font-family: "Noto Sans Display", sans-serif;
+    color: darkslategrey;
+  }
+
+  .navbar {
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 7%;
+    background-color: #F7DAD9;
+    z-index: 1;
+  }
+
+  .nav-item {
+    display: inline;
+  }
+  
+  .banner{
+    background-color: #5D534A;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  #opening {
+    margin: 50px auto 0;
+    font-family: "Consolas";
+    font-size: 300%;
+    color: whitesmoke;
+  }
+
+  #first-name {
+    font-weight: normal;
+    font-family: "Consolas";
+    font-size: 300%;
+    color: darkslategrey;
+    background: yellow;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 210px;
+    margin: 20px auto 0px;
+  }
+  
+  .self-introduction{
+    background-color: #FFF5DA;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  .bio {
+    margin: 0 auto;
+  }
+
+  .info-heading, .courses{
+      padding-left: 3%;
+  }
+
+  a {
+    color: darkslategrey;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  a:hover {
+    color: #EAF6F6;
+  }
+
+  .experience {
+      background-color: #D6D2C4;
+      color: darkslategrey;
+      padding-bottom: 5%;
+  }
+
+  .education {
+      background-color: whitesmoke;
+      padding-bottom: 5%;
+      color: darkslategrey;
+  }
+  
+  h2 {
+    font-weight: bold;
+    padding-top: 50px;
+  }
+
+  h5 {
+      font-weight: bold;
+  }
+
+  h6 {
+      font-style: italic;
+  }
+  
+  .pwc, .nakisa, .northeastern, .mcgill{
+    width: 60%;
+    margin: 50px auto;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pwc-logo, .nakisa-logo, .northeastern-logo, .mcgill-logo, .linkedin-logo {
+    width: 10%;
+    height: 10%;
+    margin-right: 10%;
+  }
+
+  hr {
+    border-color: #EAF6F6;
+    border-style: dotted none none;
+    border-width: 6px;
+    width: 4%;
+  }

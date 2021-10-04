@@ -1,0 +1,11 @@
+.project-list {
+    padding-top: 10%;
+}
+
+.neudash, .book, .todo-list{
+    width: 60%;
+    margin: 50px auto;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
