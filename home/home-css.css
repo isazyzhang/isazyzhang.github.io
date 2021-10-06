@@ -9,6 +9,14 @@
     font-weight: bolder;
   }
 
+  @media(max-width: 600px) {
+    
+  }
+
+  @media(min-width: 601px) {
+
+  }
+
   .navbar {
     position: fixed;
     display: flex;
